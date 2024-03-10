@@ -1,0 +1,39 @@
+.signup-form {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-form-wrapper {
+  width: 50%;
+  height: 400px;
+}
+
+.signup-form-wrapper .form {
+  width: 100%;
+  height: 100%;
+  padding: 1.5rem; /* Use a relative unit for padding */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+.signup-form-wrapper .form .form-group {
+  margin-bottom: 1.5rem; /* Use a relative unit for margin */
+  width: 50%;
+  text-align: center;
+}
+
+.signup-form-wrapper .form .form-group input {
+  width: 100%;
+  padding: 1rem;
+  outline: none;
+}
+
+/* Remove sourceMappingURL comment if not using a source map */

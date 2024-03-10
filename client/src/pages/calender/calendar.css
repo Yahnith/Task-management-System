@@ -1,0 +1,16 @@
+/* calender.css */
+
+/* Styles for the container */
+.calender-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto; 
+    margin-top: 25%;/* Set the height to 100% of the viewport height if you want it centered vertically */
+  
+    /* Add any additional styling you may need */
+  }
+  
+
+  
