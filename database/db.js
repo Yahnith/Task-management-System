@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const mongoURI = 'mongodb+srv://admin:123@cluster0.w74vbvd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const mongoURI = 'mongodb+srv://admin:*****@cluster0.w74vbvd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 const options = {
 	useNewUrlParser: true,
 	useUnifiedTopology: true,
