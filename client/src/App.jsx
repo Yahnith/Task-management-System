@@ -10,7 +10,6 @@ import './styles/main.scss';
 import Home from './pages/home/Home';
 import TaskManager from './pages/taskmanagement/TaskManager';
 import Dashboard from './pages/dashboard/Dashboard';
-import Calendar from './pages/calendar/Calendar';
 import RequireAuth from './utils/RequireAuth';
 //import TaskAnalytics from './pages/TaskAnalytics/TaskAnalytics';
 
@@ -47,9 +46,7 @@ function App() {
               </RequireAuth>
             }
  />
- <Route path="/calendar" element={
-  <Calendar />
- } />    
+    
      
         </Routes>
       </Router>
